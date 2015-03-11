@@ -1598,3 +1598,13 @@ a {
 
 #defendthelounge   { background-image: url(../img/tendies.png);}
 #rumblr   { background-image: url(../img/fist.png);}
+#ptable   { background-image: url(../img/Hydrogen.jpg);}
+
+.main-description
+{
+   font-family: 'Arvo', serif;
+  color:#7a7a7a;
+    padding:0 8%;
+    font-size:30px;
+     text-align: justify;
+}
