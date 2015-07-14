@@ -5,6 +5,6 @@
     $('#kunal').click(function(){ $('html,body').animate({ scrollTop:   $('#Kunal_Nabar').offset().top},300);});
     $('#eric').click(function(){ $('html,body').animate({ scrollTop:   $('#Eric_Klawitter').offset().top},300);});
     $('#derek').click(function(){ $('html,body').animate({ scrollTop:   $('#Derek_Hong').offset().top},300);});
-    $('#tracey').click(function(){ $('html,body').animate({ scrollTop:   $('#Tracey_Lin').offset().top},300);});
+    $('#adrian').click(function(){ $('html,body').animate({ scrollTop:   $('#Adrian_Garza').offset().top},300);});
     $('#kathleen').click(function(){ $('html,body').animate({ scrollTop:   $('#Kathleen_Zhu').offset().top},300);});
     $('#alex').click(function(){ $('html,body').animate({ scrollTop:   $('#Alex_Epifano').offset().top},300);});
