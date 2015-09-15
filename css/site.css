@@ -67,7 +67,7 @@ ul
 .company-name
 {
   text-align: center;
-  font-size: 40px;
+  font-size: 2vw;
   margin-top: 100px;
   opacity: 0;
 }
@@ -90,7 +90,7 @@ ul
 
     display: inline-block;
     text-align: center;
-    font-size: 30px;
+    font-size: 1.5vw;
     width: 20%;
   }
 
@@ -229,7 +229,7 @@ ul
 {
     display:inline-block;
     margin:10px 10px;
-    font-size:12px;
+    font-size:.8vw;
 }
 .people-list ul li span
 {
@@ -238,12 +238,12 @@ ul
     display:block;
     color:gray;
     font-weight:300;
-    font-size:10px;
+    font-size:.5vw;
     text-align:center;
 }
 .people-list ul li span.head-name
 {
-    font-size:14px;
+    font-size:.7vw;
 }
 
 .headshot
@@ -254,7 +254,7 @@ ul
     background-color:#e0e0e0;
     line-height:75px;
     margin:0 auto;
-    font-size:15px;
+    font-size:.7vw;
     cursor:pointer;
     text-align: center;
     background-size:75px 75px;
@@ -311,7 +311,7 @@ ul
     margin-left:10%;
     height:100%;
     width:35%;
-    font-size: 20px;
+    font-size: 1.1vw;
 }
 .val
 {
@@ -1604,6 +1604,6 @@ a {
    font-family: 'Arvo', serif;
   color:#7a7a7a;
     padding:0 8%;
-    font-size:30px;
+    font-size:2vw;
      text-align: justify;
 }
