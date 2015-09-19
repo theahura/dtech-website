@@ -131,12 +131,16 @@ $('.steve').click(function() {
 	setOverlay(stevePic, steveText, steveName, steveTitle);
 });
 
+//-------------------------------------------------------------
+
 $('.people-tab').click(function() {
-	$('.people-container').show();
-	$('.project-container').hide();
+	$('.project-container').fadeOut(function() {
+		$('.people-container').fadeIn();
+	});
 });
 
 $('.project-tab').click(function() {
-	$('.project-container').show();
-	$('.people-container').hide();
+	$('.people-container').fadeOut(function() {
+		$('.project-container').fadeIn();
+	});
 });
