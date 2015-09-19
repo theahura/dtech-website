@@ -15,6 +15,10 @@
   margin-right: auto;
 }
 
+.person {
+  width: 80%;
+}
+
 .people-container {
   display: none;
 }
