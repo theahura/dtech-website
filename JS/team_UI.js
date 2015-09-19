@@ -6,14 +6,14 @@ var adrianTitle = "Head of Design";
 var alexText = "Alex serves as sysadmin and manages the Diagraphic Technologies webstack. Having programmed for more than half of his life, he continues his pursuit of knowledge as a junior at Georgia Tech. He has managed servers both at a large web-based company and on his own for personal projects. Alex brings this knowledge as well as a passion for highly performant web systems to Diagraphic Technologies.";
 var alexPic = "img/Alex_Epifano.jpg";
 var alexName = "Alex Epifano";
-var alexTitle = "Webstack Admin";
+var alexTitle = "Systems Admin";
 
 var amolText = "Amol is a co-founder of Diagraphic Technologies and currently a Sophomore at Columbia's School of Engineering. Amol brings both technological and managerial expertise as the head of technical development for Diagraphic Tech. Since his first year in college, Amol has built numerous projects from the ground up at Hackathons, has been conducting GPU-based parallel processing neurotech research at the BioNet lab at Columbia, and has been interning at iSentium, a tech-finance startup in NYC. He is the core developer for Chalk, LexicalPT, and ReRep. In his free time, he is currently working on a dynamic cloud storage application named Cumulus.";
 var amolPic = "img/Amol_Kapoor.jpg";
 var amolName = "Amol Kapoor";
 var amolTitle = "Co-Founder, Technical Lead";
 
-var davidText = "";
+var davidText = "David Smart is a sophomore at Columbia University in the City of New York. In his first year of university, he was part of the hackathon team that worked on Rumblr. He was a founding member of the development group 3005 Hacks, where he and his team worked on SquadFinder, a microevent social media app. Finally, he does web development for a Harlem, NYC startup, The Haircutting Company. In his free time, he is pondering the futility of life and sipping on Arizona iced teas.";
 var davidPic = "img/David_Smart.jpg";
 var davidName = "David Smart";
 var davidTitle = "Project Software Engineer - Arrow";
@@ -33,12 +33,12 @@ var ganeshPic = "img/Ganesh_Ravichandran.jpg";
 var ganeshName = "Ganesh Ravichandran";
 var ganeshTitle = "Full Stack Engineer, Project Manager - Arrow";
 
-var joshText = "";
+var joshText = "Josh Bartlett is a sophomore studying computer science at Columbia University's School of Engineering and Applied Science. Just in his first year in college, Josh has built a few projects at hackathons, has been extremely involved in the National Society of Black Engineers, and has interned at Ericsson which is one of the the largest telecommunications companies in the world. In addition to Arrow, he has worked on SquadFinder, a microevent social media app. In his free time, he likes to play sports and video games.";
 var joshPic = "img/Josh_Bartlett.jpg";
 var joshName = "Josh Bartlett";
 var joshTitle = "Project Software Engineer - Arrow";
 
-var isabelText = "";
+var isabelText = "Isabel Kim is a sophomore at the University of Pennsylvania, and a front end developer in training. Coming from a graphics background, her work at Digraphic Technologies centers around UX, UI, and anything that needs art. In her free time she writes for the Daily Pennsylvanian and makes things with power tools.";
 var isabelPic = "img/Isabel_Kim.jpg";
 var isabelName = "Isabel Kim";
 var isabelTitle = "Project Design Lead - RealRep";
