@@ -8,7 +8,7 @@ var alexPic = "img/Alex_Epifano.jpg";
 var alexName = "Alex Epifano";
 var alexTitle = "Webstack Admin";
 
-var amolText = "";
+var amolText = "Amol is a co-founder of Diagraphic Technologies and currently a Sophomore at Columbia's School of Engineering. Amol brings both technological and managerial expertise as the head of technical development for Diagraphic Tech. Since his first year in college, Amol has built numerous projects from the ground up at Hackathons, has been conducting GPU-based parallel processing neurotech research at the BioNet lab at Columbia, and has been interning at iSentium, a tech-finance startup in NYC. He is the core developer for Chalk, LexicalPT, and ReRep. In his free time, he is currently working on a dynamic cloud storage application named Cumulus.";
 var amolPic = "img/Amol_Kapoor.jpg";
 var amolName = "Amol Kapoor";
 var amolTitle = "Co-Founder, Technical Lead";
@@ -18,12 +18,12 @@ var davidPic = "img/David_Smart.jpg";
 var davidName = "David Smart";
 var davidTitle = "Project Software Engineer - Arrow";
 
-var derekText = "";
+var derekText = "Derek is a software developer at Diagraphic Technologies who previously worked on developing Chalk and is now focused on RealRep. He is currently a sophomore at Brown University. Though Derek's coding experience only started in 10th grade, he hopes to further his education at Brown and continue working on projects at Diagraphic Tech. He looks forward to creating platforms and software that will develop his understanding of technology while building the world around him.";
 var derekPic = "img/Derek_Hong.jpg";
 var derekName = "Derek Hong";
 var derekTitle = "Full Stack Engineer";
 
-var ericText = "";
+var ericText = "Eric is a software developer at Diagraphic Tech working to develop features for Chalk on both the front end and back end. He started coding as a freshman in high school and since then has served as the co-leader of his high school Student Technology Committee. Eric is currently a sophomore at Georgia Tech studying computer engineering. His work at Diagraphic Technologies is centered around streamlining the process of annotating a presentation to enable more effective use of slideshows.";
 var ericPic = "img/Eric_Klawitter.jpg";
 var ericName = "Eric Klawitter";
 var ericTitle = "Software Engineer - Chalk";
@@ -43,7 +43,7 @@ var isabelPic = "img/Isabel_Kim.jpg";
 var isabelName = "Isabel Kim";
 var isabelTitle = "Project Design Lead - RealRep";
 
-var kunalText = "";
+var kunalText = "Kunal is a software engineer at Diagraphic Tech and worked on the front end development of Chalk. He has been programming for many years and has previously developed multiple web-based applications. Kunal is currently a sophomore at Vanderbilt University in Nashville, Tennessee studying Computer Science and Applied Mathematics. His work at Diagraphic involves enhancing user experience and creating easily usable software.";
 var kunalPic = "img/Kunal_Nabar.jpg";
 var kunalName = "Kunal Nabar";
 var kunalTitle = "Project Software Engineer - Chalk";
