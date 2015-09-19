@@ -90,3 +90,8 @@ ul
   height: 91%;
   width: 100%;
 }
+
+a, a:hover, a:visited {
+  text-decoration: none;
+  color:#4297f3;
+}
