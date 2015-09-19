@@ -1,12 +1,12 @@
-var adrianText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."; 
+var adrianText = "Adrian is a Columbia University sophomore who brings his creative mind and artistic sensibilities to Diagraphic Tech. He started coding in college, and is currently improving his simulation of an alien ecosystem on the planet Jupiter. He writes for the satirical newspaper the Federalist and makes bad art in his spare time."
 var adrianPic = "img/Adrian_Garza.jpg";
 var adrianName = "Adrian Garza";
 var adrianTitle = "";
 
-var alexText = "";
+var alexText = "Alex serves as sysadmin and manages the Diagraphic Technologies webstack. Having programmed for more than half of his life, he continues his pursuit of knowledge as a junior at Georgia Tech. He has managed servers both at a large web-based company and on his own for personal projects. Alex brings this knowledge as well as a passion for highly performant web systems to Diagraphic Technologies.";
 var alexPic = "img/Alex_Epifano.jpg";
 var alexName = "Alex Epifano";
-var alexTitle = "";
+var alexTitle = "Webstack Admin";
 
 var amolText = "";
 var amolPic = "img/Amol_Kapoor.jpg";
@@ -38,20 +38,31 @@ var joshPic = "img/Josh_Bartlet.jpg";
 var joshName = "Josh Bartlett";
 var joshTitle = "";
 
+var isabelText = "";
+var isabelPic = "img/Isabel_Kim.jpg";
+var isabelName = "Isabel Kim";
+var isabelTitle = "";
+
 var kunalText = "";
 var kunalPic = "img/Kunal_Nabar.jpg";
 var kunalName = "Kunal Nabar";
 var kunalTitle = "";
 
-var maulinText = "";
+var maulinText = "Maulin serves as a co-founder of Diagraphic Technologies. He is currently a Sophomore at Northwestern's McCormick School of Engineering. At Diagraphic Technologies, Maulin is the head of business operations and brings his experience as an entrepreneur and leader to the team. He co-founded a non-profit organization and has been interning at Venn Health Partners, a healthcare consulting start-up. He is particularly excited about a new project which involves providing digital solutions and analytics to clients in the healthcare and physical therapy industries.";
 var maulinPic = "img/Maulin_Hemani.jpg";
 var maulinName = "Maulin Hemani";
-var maulinTitle = "";
+var maulinTitle = "Co-Founder, Head of Sales and Marketing";
 
 var sophieText = "";
 var sophiePic = "img/Sophie_Stadler.jpg";
-var sophieName = "Sophie Standler";
+var sophieName = "Sophie Stadler";
 var sophieTitle = "";
+
+var steveText = "";
+var stevePic = "img/Steve_Sun.jpg";
+var steveName = "Steve Sun";
+var steveTitle = "";
+
 
 //----------------------------------------------------------
 
@@ -70,41 +81,53 @@ $('.person-overlay').click(function() {
 //--------------------------------------------------------------
 
 $('.adrian').click(function() {
-	setOverlay(adrianPic, adrianText, adrianName);
+	setOverlay(adrianPic, adrianText, adrianName, adrianTitle);
 });
 
 $('.alex').click(function() {
-	setOverlay(alexPic, alexText, alexName);
+	setOverlay(alexPic, alexText, alexName, alexTitle);
 });
 
 $('.amol').click(function() {
-	setOverlay(amolPic, amolText, amolName);
+	setOverlay(amolPic, amolText, amolName, amolTitle);
 });
 
 $('.david').click(function() {
-	setOverlay(davidPic, davidText, davidName);
+	setOverlay(davidPic, davidText, davidName, davidTitle);
 });
 
 $('.derek').click(function() {
-	setOverlay(derekPic, derekText, derekName);
+	setOverlay(derekPic, derekText, derekName, derekTitle);
+});
+
+$('.eric').click(function() {
+	setOverlay(ericPic, ericText, ericName, ericTitle);
 });
 
 $('.ganesh').click(function() {
-	setOverlay(ganeshPic, ganeshText, ganeshName);
+	setOverlay(ganeshPic, ganeshText, ganeshName, ganeshTitle);
+});
+
+$('.isabel').click(function() {
+	setOverlay(isabelPic, isabelText, isabelName, isabelTitle);
 });
 
 $('.josh').click(function() {
-	setOverlay(joshPic, joshText, joshName);
+	setOverlay(joshPic, joshText, joshName, joshTitle);
 });
 
 $('.kunal').click(function() {
-	setOverlay(kunalPic, kunalText, kunalName);
+	setOverlay(kunalPic, kunalText, kunalName, kunalTitle);
 });
 
 $('.maulin').click(function() {
-	setOverlay(maulinPic, maulinText, maulinName);
+	setOverlay(maulinPic, maulinText, maulinName, maulinTitle);
 });
 
 $('.sophie').click(function() {
-	setOverlay(sophiePic, sophieText, sophieName);
+	setOverlay(sophiePic, sophieText, sophieName, sophieTitle);
+});
+
+$('.steve').click(function() {
+	setOverlay(stevePic, steveText, steveName, steveTitle);
 });
