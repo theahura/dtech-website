@@ -39,7 +39,7 @@
     }
 
       .face-container li {
-        margin: 8%;
+        margin: 1%;
         padding: 2%;
         display: inline-block;
         background-color: #7a7a7a;
@@ -101,3 +101,16 @@
           font-family: 'Arvo', sans-serif;
           color: #7a7a7a;
         }
+
+.tabs>li {
+  display: inline;
+}
+
+.tabs>li>div {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.people-tab {
+  float: left;
+}

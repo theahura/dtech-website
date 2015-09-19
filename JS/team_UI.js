@@ -130,3 +130,13 @@ $('.sophie').click(function() {
 $('.steve').click(function() {
 	setOverlay(stevePic, steveText, steveName, steveTitle);
 });
+
+$('.people-tab').click(function() {
+	$('.people-container').show();
+	$('.project-container').hide();
+});
+
+$('.project-tab').click(function() {
+	$('.project-container').show();
+	$('.people-container').hide();
+});
