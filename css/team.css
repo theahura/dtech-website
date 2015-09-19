@@ -1,0 +1,138 @@
+.title {
+  width: 100%;
+  font-size: 2vw;
+  text-align: center;
+}
+
+.about-text {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-family:"Arvo",sans-serif;
+  color: #7a7a7a;
+  text-align: justify;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.person {
+  width: 80%;
+}
+
+.people-container {
+  display: none;
+}
+
+.project-container {
+  margin: auto;
+  text-align: center;
+  display: none;
+}
+
+  .project-container>li {
+    width: 29%;
+    margin: 2%;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+    .project-name {
+      font-size: 2vw;
+      font-family: "Raleway", sans-serif;
+    }
+
+    .face-container {
+      text-align: center;
+      margin: auto;
+    }
+
+      .face-container li {
+        margin: 1%;
+        padding: 2%;
+        display: inline-block;
+        background-color: #7a7a7a;
+        border-radius: 5%; 
+      }
+
+.person-overlay {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(48, 48, 48, .25);
+
+  display: none;
+}
+
+  .person-content-container {
+    width: 50%;
+    height: 0%;
+    padding-bottom: 38%;
+    background-color: white;
+    border-radius: 2%;
+    margin:auto;
+    text-align: center;
+
+    margin-top: 5%;
+  }
+
+    .person-name {
+      font-size: 2vw;
+      padding-top: 5%;
+      padding-bottom: 2%;
+    }
+
+    .person-title {
+      font-size: 1.2vw;
+      padding-bottom: 2%;
+    }
+
+    .person-content {
+      text-align: center;
+      margin: auto;
+    }
+
+      .person-content>li {
+        display: inline-block;
+        width: 49%;
+        vertical-align: middle;
+      }
+
+        .person {
+          border-radius: 5%;
+        }
+
+        .person-text {
+          width: 80%;
+          text-align: justify;
+          font-family: 'Arvo', sans-serif;
+          color: #7a7a7a;
+        }
+
+.tabs {
+  margin: auto;
+  text-align: center;
+  width: 40%;
+
+  margin-bottom: 5%;
+}
+
+.tabs>li {
+  display: inline;
+  width: 30%;
+  text-align: center;
+  border-radius: 5%;
+  border: 2px solid #4297f3;
+  margin-left: 13%;
+}
+
+  .tabs>li>div {
+    padding: 5px;
+    cursor: pointer;
+    font-size: 2vw;
+  }
+
+.people-tab, .project-tab {
+  float: left;
+}
