@@ -16,6 +16,355 @@ ul
   padding: 0 0;
 }
 
+/* buttons! */
+
+.button
+{
+  cursor: pointer;
+}
+
+/* Spacers */
+
+.spacer-15
+{
+  width: 100%;
+  height: 15%;
+}
+
+.spacer-17
+{
+  width: 100%;
+  height: 17%;
+}
+
+
+/* Main Logo */
+.fit 
+{ 
+  width:  auto;
+  height: 100%;
+}
+
+.fit-width
+{ 
+  width:  100%;
+  height: auto;
+}
+
+
+.center 
+{
+  display: block;
+  margin: auto;
+}
+
+#Logo
+{
+  display: none;
+}
+
+/* Company name */
+.company-name
+{
+  text-align: center;
+  font-size: 2vw;
+  margin-top: 100px;
+  opacity: 0;
+}
+
+/* Menu */
+
+.menu-container
+{
+  padding: 0 0;
+  margin: 0 0;
+  display: none;
+  width: 100%;
+  text-align: center;
+}
+
+  .menu-container li
+  {
+    -webkit-border-image: -webkit-gradient(linear, 0 0, 0 100%, from(#4297f3), to(rgba(0, 0, 0, 0))) 1 100%;
+
+
+    display: inline-block;
+    text-align: center;
+    font-size: 1.5vw;
+    width: 20%;
+  }
+
+
+.footer
+{
+    width: 100%;
+    position: fixed;
+    bottom: 0%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* About Page */
+.wrapper
+{
+    font-family: 'Roboto Slab', serif; 
+    color:#7a7a7a;
+}
+
+.header
+{
+    font-family: 'Roboto Slab', serif;
+    width:100%;
+    height:90px;
+}  
+
+.content
+{
+    font-family: 'Roboto Slab', serif;   
+}
+
+.header-wrapper
+{
+    height:40px;
+    width:94%;
+    margin:0 3%;
+    border-bottom:1px solid #e0e0e0;
+    
+}
+
+.site-title
+{
+    width:48%;
+    padding-top:5px;
+    height:35px;
+    font-size:150%;  
+    letter-spacing: .1em;
+    font-weight: 400;
+    float:left;
+    margin-left:10px;
+}
+
+.site-logo
+{   
+    margin:0px;
+    display:block;
+    height:40px;
+    width:60px;
+    float:left;
+    background-image:url(../img/logo.png);
+    background-size:60px 50px;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+.line-inner
+{
+    display:block;
+    width:94%;
+    padding:12px 0px;
+    margin:0px 3%;
+    background-origin: border-box;
+    background-position: center;
+    background-repeat:no-repeat; 
+    
+}
+
+.line-inner div
+{
+    height:1px;
+    width:40%;
+    background-color:#ccc;
+}
+
+.diagraphic-line
+{
+    background-image:url("../img/logo.png");
+    background-size:40px 40px;
+}
+
+.line-inner div
+{
+    height:1px;
+    width:40%;
+    background-color:#ccc;
+}
+.line1
+{
+    margin-left:5%;         
+}
+.line2
+{
+    margin-left:55%;
+}
+
+.people-list
+{
+    width:98%;
+    margin:1%; 
+    height:auto;
+}
+.people-list ul
+{
+    list-style-type: none;
+    padding:0px;
+    text-align:center;
+}
+.people-list ul li
+{
+    display:inline-block;
+    margin:2.5% 5%;
+    width:10vw;
+    vertical-align: top;
+    font-size:.8vw;
+}
+.people-list ul li span
+{
+    width:100%;
+    margin:10px 0px;
+    display:block;
+    color:gray;
+    font-weight:300;
+    font-size:.5vw;
+    text-align:center;
+}
+.people-list ul li span.head-name
+{
+    font-size:2.25vw;
+}
+
+.people-list ul li span.head-title
+{
+    font-size:1.25vw;
+    font-style:italic;
+}
+
+.headshot
+{
+    border-radius:50%;
+    background-color:#e0e0e0;
+    line-height:75px;
+    margin:0 auto;
+    font-size:.7vw;
+    cursor:pointer;
+    text-align: center;
+    width: 10vw;
+    height: 10vw;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+.headshot:hover
+{
+    -webkit-box-shadow:0 0 28px 6px rgba(66, 166, 243, 0.8);
+    -moz-box-shadow: 0 0 28px 6px rgba(66, 166, 243, 0.8);
+    box-shadow: 0 0 28px 6px rgba(66, 166, 243, 0.8);
+}
+.headshot:active
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3), inset 0px 2px 5px rgba(0, 0, 0, 0.3), 0 0 28px 6px rgba(66, 166, 243, 0.8);
+    -moz-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3), inset 0px 2px 5px rgba(0, 0, 0, 0.3), 0 0 28px 6px rgba(66, 166, 243, 0.8);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3), inset 0px 2px 5px rgba(0, 0, 0, 0.3), 0 0 28px 6px rgba(66, 166, 243, 0.8);
+}
+
+
+#maulin { background-image: url(../img/Maulin_Hemani_s.jpg);}
+#amol   { background-image: url(../img/Amol_Kapoor_s.jpg);}
+#kunal   { background-image: url(../img/Kunal_Nabar_s.jpg);}
+#eric   { background-image: url(../img/Eric_Klawitter_s.jpg);}
+#derek   { background-image: url(../img/Derek_Hong_s.jpg);}
+#adrian   { background-image: url(../img/Adrian_Garza_s.jpg);}
+#kathleen   { background-image: url(../img/Kathleen_Zhu_s.jpg);}
+#alex   { background-image: url(../img/Alex_Epifano_s.jpg);}
+
+
+.gen-content
+{
+    height:680px;
+    width:84%;
+    margin:0 8%;
+}
+.gen-content div
+{   
+    float:left;
+    
+}
+.staff-photo
+{
+    height:100%;
+    width:45%;
+}
+.staff-photo img
+{
+    width:80%;
+    margin:0 10%;
+    margin-top:20%;
+}
+.staff-text
+{
+    margin-left:10%;
+    height:100%;
+    width:35%;
+    font-size: 1.1vw;
+}
+.val
+{
+    margin-top:20%;
+    /*font-family:"Helvetica Neue", Arial, sans-serif;*/
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> origin/master:css/site.css
 /* Chalk page stuff */
 .chalk-title
 {
@@ -117,7 +466,7 @@ ul
               margin-top: 4%;
               font-size: 18px;
               text-align: center;
-              font-family: 'Arvo', serif;
+              font-family: 'Roboto Slab', serif; 
            	  color: gray;
             }
 
@@ -186,7 +535,7 @@ ul
             height: 30%;
             overflow: hidden;
             font-size: 15px;
-            font-family: 'Arvo', serif;
+            font-family: 'Roboto Slab', serif; 
            	color: gray;
           }
 
@@ -223,7 +572,7 @@ ul
     {
       float: right;
       text-align: right;
-      font-family: 'Arvo', serif;
+      font-family: 'Roboto Slab', serif; 
       color: gray;
     }
 
@@ -487,6 +836,104 @@ ul
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a {
+  color: inherit;
+  text-decoration: inherit; /* no underline */
+}
+
+.project-content
+{
+    width:84%;
+    margin:8%;
+}
+
+.project-text
+{
+    margin-left:2%;
+    font-size: 1.25vw;
+}
+
+.project-photo
+{
+    float:left;
+    width:30%;
+    padding:2%
+}
+
+.project-val
+{
+    /*font-family:"Helvetica Neue", Arial, sans-serif;*/
+    text-align: justify;
+}
+
+.project-photo img
+{
+    width:80%;
+    margin-left:10%;
+}
+
+#mumblr   { background-image: url(../img/microphone.png);}
+#defendthelounge   { background-image: url(../img/tendies.png);}
+#rumblr   { background-image: url(../img/fist.png);}
+#ptable   { background-image: url(../img/Hydrogen.jpg);}
+
+.main-description
+{
+   font-family: 'Roboto Slab', serif; 
+  color:#7a7a7a;
+    padding:0 8%;
+    font-size:2vw;
+     text-align: justify;
+}
+
+h5
+{
+    font-size:4vw;   
+}
+
+.page-footer
+{
+    font-family: 'Roboto Slab', serif;
+    font-size: 0.5em;
+    width:100%;
+    text-align:center;
+    padding-bottom:2.5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> origin/master:css/site.css
     /* MEDIA CONSIDERRATIONS */
   @media all and (max-width:1355px)
 {
@@ -765,6 +1212,60 @@ ul
         width: 60%;
         height: 60%;
       }
+    
+    /* FORGIVE THE COPY PASTA, SENSEI,
+        BUT IT MUST BE DONE */
+    .people-list
+    {
+        width:90%;
+        margin:5%; 
+        height:auto;
+    }
+    .people-list ul
+    {
+        list-style-type: none;
+        padding:0px;
+        text-align:center;
+    }
+    .people-list ul li
+    {
+        width:30vw;
+        min-width:0px;
+    }
+    .people-list ul li span
+    {
+        width:100%;
+        margin:10px 0px;
+        display:block;
+        color:gray;
+        font-weight:300;
+        font-size:.5vw;
+        text-align:center;
+    }
+    .people-list ul li span.head-name
+    {
+        font-size:5vw;
+    }
+
+    .people-list ul li span.head-title
+    {
+        font-size:3.5vw;
+    }
+
+    .headshot
+    {
+        width: 30vw;
+        height: 30vw;
+        min-width: 0px;
+        min-height: 0px;
+    }
+    
+    .project-photo
+    {
+        float:left;
+        width:45%;
+        padding:2%
+    }
 }
 
 @media all and (max-width:905px)
@@ -841,6 +1342,8 @@ ul
         width: 60%;
         height: 60%;
       }
+    
+    
 }
 
 @media all and (max-width:805px)
@@ -1188,14 +1691,6 @@ ul
         }
 }
 
-
-@media all and (min-width:1210px)
-{
-    .people-list
-    {
-        height:150px;   
-    }
-}
 @media all and (min-width:678px)
 {
     .people-list
