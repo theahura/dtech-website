@@ -109,16 +109,18 @@
 .tabs {
   margin: auto;
   text-align: center;
-  width: 100%;
+  width: 40%;
+
   margin-bottom: 5%;
 }
 
 .tabs>li {
   display: inline;
-  width: 10%;
+  width: 30%;
   text-align: center;
   border-radius: 5%;
   border: 2px solid #4297f3;
+  margin-left: 13%;
 }
 
   .tabs>li>div {
