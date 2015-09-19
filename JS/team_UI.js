@@ -23,6 +23,11 @@ var derekPic = "img/Derek_Hong.jpg";
 var derekName = "Derek Hong";
 var derekTitle = "";
 
+var ericText = "";
+var ericPic = "img/Eric_Klawitter.jpg";
+var ericName = "Eric Klawitter";
+var ericTitle = "";
+
 var ganeshText = "";
 var ganeshPic = "img/Ganesh_R.jpg";
 var ganeshName = "Ganesh Ravichandran";
@@ -32,6 +37,11 @@ var joshText = "";
 var joshPic = "img/Josh_Bartlet.jpg";
 var joshName = "Josh Bartlett";
 var joshTitle = "";
+
+var kunalText = "";
+var kunalPic = "img/Kunal_Nabar.jpg";
+var kunalName = "Kunal Nabar";
+var kunalTitle = "";
 
 var maulinText = "";
 var maulinPic = "img/Maulin_Hemani.jpg";
@@ -85,6 +95,10 @@ $('.ganesh').click(function() {
 
 $('.josh').click(function() {
 	setOverlay(joshPic, joshText, joshName);
+});
+
+$('.kunal').click(function() {
+	setOverlay(kunalPic, kunalText, kunalName);
 });
 
 $('.maulin').click(function() {
