@@ -29,12 +29,12 @@ var ericName = "Eric Klawitter";
 var ericTitle = "";
 
 var ganeshText = "";
-var ganeshPic = "img/Ganesh_R.jpg";
+var ganeshPic = "img/Ganesh_Ravichandran.jpg";
 var ganeshName = "Ganesh Ravichandran";
 var ganeshTitle = "";
 
 var joshText = "";
-var joshPic = "img/Josh_Bartlet.jpg";
+var joshPic = "img/Josh_Bartlett.jpg";
 var joshName = "Josh Bartlett";
 var joshTitle = "";
 
@@ -50,7 +50,7 @@ var maulinTitle = "";
 
 var sophieText = "";
 var sophiePic = "img/Sophie_Stadler.jpg";
-var sophieName = "Sophie Standler";
+var sophieName = "Sophie Stadler";
 var sophieTitle = "";
 
 //----------------------------------------------------------
