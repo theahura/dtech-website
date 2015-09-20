@@ -8,38 +8,37 @@
 .page-desc {
   margin-top: 1%;
   margin-bottom: 1%;
-  font-family:"Arvo",sans-serif;
+  font-family:"Arvo", serif;
+  font-size: 1.5vw;
   color: #7a7a7a;
+  width: 80%;
   text-align: justify;
-  width: 70%;
   margin-left: auto;
   margin-right: auto;
 }
 
-
-
-
 .project-list ul
 {
-    font-family:"Arvo",sans-serif;
+    font-family:"Raleway", sans-serif;
     text-align:center;
 }
 .project-list ul li
 {
     display:inline-block;
     margin:2%;
-    width:10vw;
+    width:10%;
     vertical-align: top;
+    color: #7a7a7a;
 }
 
 .project-name
 {
-    font-size:2.25vw;
+    font-size:1.5vw;
 }
 
 .project-locale
 {
-    font-size:1.25vw;
+    font-size:1vw;
     font-style:italic;
 }
 
@@ -84,6 +83,8 @@
 {
     font-size: 1.25vw;
     text-align: justify;
+    font-family: "Arvo", serif;
+    color: #7a7a7a;
 }
 
 .project-photo
