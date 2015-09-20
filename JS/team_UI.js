@@ -28,7 +28,7 @@ var ericPic = "img/Eric_Klawitter.jpg";
 var ericName = "Eric Klawitter";
 var ericTitle = "Software Engineer - Chalk";
 
-var ganeshText = "";
+var ganeshText = "Ganesh Ravichandran is a second-year studying computer science at Columbia University. He is the lead developer on Arrow, and has been working on LexicalPT and RealRep. In addition to his work at Diagraphic, Ganesh also collaborates with Dr. Tim Morton at Princeton on NASA Kepler research, and is part of Columbia's ADI Labs, which seeks to design apps for the Columbia community. In addition to coding, Ganesh enjoys bicycling through the streets of Manhattan, finding new places to chill in NYC, and jump roping on Low Steps.";
 var ganeshPic = "img/Ganesh_Ravichandran.jpg";
 var ganeshName = "Ganesh Ravichandran";
 var ganeshTitle = "Full Stack Engineer, Project Manager - Arrow";
@@ -56,7 +56,7 @@ var maulinTitle = "Co-Founder, Head of Sales and Marketing";
 var sophieText = "Sophie is a sophomore at Columbia University studying computer science. She enjoys web development, particularly front-end, and brings her  typographic and responsive design knowledge to Diagraphic. Outside of the web, Sophie is also interested in personal data and the Internet of Things.";
 var sophiePic = "img/Sophie_Stadler.jpg";
 var sophieName = "Sophie Stadler";
-var sophieTitle = "Project Software Engineer - Arrow";
+var sophieTitle = "Project Software Engineer and Design Lead - Arrow";
 
 var steveText = "";
 var stevePic = "img/Steve_Sun.jpg";
