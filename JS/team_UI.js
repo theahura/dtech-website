@@ -53,7 +53,7 @@ var maulinPic = "img/Maulin_Hemani.jpg";
 var maulinName = "Maulin Hemani";
 var maulinTitle = "Co-Founder, Head of Sales and Marketing";
 
-var sophieText = "";
+var sophieText = "Sophie is a sophomore at Columbia University studying computer science. She enjoys web development, particularly front-end, and brings her  typographic and responsive design knowledge to Diagraphic. Outside of the web, Sophie is also interested in personal data and the Internet of Things.";
 var sophiePic = "img/Sophie_Stadler.jpg";
 var sophieName = "Sophie Stadler";
 var sophieTitle = "Project Software Engineer - Arrow";
