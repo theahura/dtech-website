@@ -47,8 +47,8 @@
     }
 
       .face-container li {
-        margin: 1%;
-        padding: 2%;
+        margin: 2%;
+        padding: 7px;
         display: inline-block;
         background-color: #7a7a7a;
         border-radius: 5%; 
