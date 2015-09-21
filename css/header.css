@@ -62,6 +62,19 @@ ul
     font-size: 2vw;
   }
 
+    .header-wrapper .site-title-container {
+      margin-right: 30%;
+    }
+
+    .header-wrapper .link {
+      -webkit-border-image: -webkit-gradient(linear, 0 0, 0 100%, from(#4297f3), to(rgba(0, 0, 0, 0))) 1 100%;
+
+      display: inline-block;
+      text-align: center;
+      font-size: 1.2vw;
+      width: 10%;
+    }
+
 .line-inner
 {
     display:block;
