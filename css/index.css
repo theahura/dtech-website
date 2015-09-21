@@ -1,0 +1,64 @@
+
+
+/* Main Logo */
+.fit 
+{ 
+  width:  auto;
+  height: 100%;
+}
+
+.fit-width
+{ 
+  width:  100%;
+  height: auto;
+}
+
+
+.center 
+{
+  display: block;
+  margin: auto;
+}
+
+#Logo
+{
+  display: none;
+}
+
+/* Company name */
+.company-name
+{
+  text-align: center;
+  font-size: 40px;
+  margin-top: 100px;
+  opacity: 0;
+}
+
+
+.menu-container
+{
+  padding: 0 0;
+  margin: 0 0;
+  display: none;
+  width: 100%;
+  text-align: center;
+}
+
+  .menu-container li
+  {
+    -webkit-border-image: -webkit-gradient(linear, 0 0, 0 100%, from(#4297f3), to(rgba(0, 0, 0, 0))) 1 100%;
+
+
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    width: 20%;
+  }
+
+
+.footer
+{
+    width: 100%;
+    position: fixed;
+    bottom: 0%;
+}

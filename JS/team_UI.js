@@ -58,7 +58,7 @@ var sophiePic = "img/Sophie_Stadler.jpg";
 var sophieName = "Sophie Stadler";
 var sophieTitle = "Project Software Engineer and Design Lead - Arrow";
 
-var steveText = "";
+var steveText = "Steven Sun is a junior at the University of Pennsylvania, and a full-stack dev/PM in training. He likes thinking about efficiency, humanity, and money. In his free time, he likes to swing-dance, learn new languages, and eat his weight in interesting homemade and gourmet cuisine.";
 var stevePic = "img/Steve_Sun.jpg";
 var steveName = "Steve Sun";
 var steveTitle = "Project Software Engineer and PR - RealRep";
