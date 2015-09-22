@@ -124,3 +124,7 @@ a, a:hover, a:visited {
   text-decoration: none;
   color:#4297f3;
 }
+
+.content {
+  display: none;
+}
