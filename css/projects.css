@@ -1,0 +1,204 @@
+.title
+{
+    width=100%;
+    font-size:3vw;
+    text-align: center;
+}
+
+.page-desc {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-family:"Arvo", serif;
+  font-size: 1.5vw;
+  color: #7a7a7a;
+  width: 80%;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-list ul
+{
+    font-family:"Raleway", sans-serif;
+    text-align:center;
+}
+.project-list ul li
+{
+    display:inline-block;
+    margin:2%;
+    width:10%;
+    vertical-align: top;
+    color: #7a7a7a;
+}
+
+.project-name
+{
+    font-size:1.5vw;
+}
+
+.project-locale
+{
+    font-size:1vw;
+    font-style:italic;
+}
+
+.project-logo
+{
+    border-radius:50%;
+    background-color:#e0e0e0;
+    line-height:75px;
+    cursor:pointer;
+    width: 10vw;
+    height: 10vw;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position:center;
+    margin-bottom:15%;
+}
+.project-logo:hover
+{
+    -webkit-box-shadow:0 0 28px 6px rgba(66, 166, 243, 0.8);
+    -moz-box-shadow: 0 0 28px 6px rgba(66, 166, 243, 0.8);
+    box-shadow: 0 0 28px 6px rgba(66, 166, 243, 0.8);
+}
+.project-logo:active
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3), inset 0px 2px 5px rgba(0, 0, 0, 0.3), 0 0 28px 6px rgba(66, 166, 243, 0.8);
+    -moz-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3), inset 0px 2px 5px rgba(0, 0, 0, 0.3), 0 0 28px 6px rgba(66, 166, 243, 0.8);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3), inset 0px 2px 5px rgba(0, 0, 0, 0.3), 0 0 28px 6px rgba(66, 166, 243, 0.8);
+}
+
+
+
+
+
+
+.project-content
+{
+    width:84%;
+    margin:auto;
+}
+
+.project-text
+{
+    font-size: 1.25vw;
+    text-align: justify;
+    font-family: "Arvo", serif;
+    color: #7a7a7a;
+}
+
+.project-photo
+{
+    float:left;
+    width:30%;
+    padding-right:3%;
+    padding-bottom:3%;
+}
+
+
+
+
+
+
+
+/* THE MAGICAL CODE THAT MAKES FLOATS DO */
+.clearfix:after 
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+#mumblr   { background-image: url(../img/microphone.png); background-size:105%;}
+#defendthelounge   { background-image: url(../img/tendies.png); background-size:75%;}
+#rumblr   { background-image: url(../img/fist.png);}
+#ptable   { background-image: url(../img/Hydrogen.jpg); background-size:110%;}
+#cumulus   { background-image: url(../img/cumulus.jpg);}
+
+h5
+{
+    font-size:4vw;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA CONSIDERRATIONS */
+@media all and (max-width:1005px)
+{
+    .title {
+        font-size:10vw;
+    }
+    
+    .page-desc
+    {
+        font-size:3vw;   
+    }
+    
+    .project-list
+    {
+        width:90%;
+        margin:5%; 
+        height:auto;
+    }
+    .project-list ul
+    {
+        list-style-type: none;
+        padding:0px;
+        text-align:center;
+    }
+    .project-list ul li
+    {
+        width:30vw;
+        min-width:0px;
+    }
+
+    .project-name
+    {
+        font-size:5vw;
+    }
+
+    .project-locale
+    {
+        font-size:3.5vw;
+    }
+
+    .project-logo
+    {
+        width: 30vw;
+        height: 30vw;
+    }
+    
+    .project-photo
+    {
+        width:45%;
+        padding-right:5%;
+        padding-bottom:5%;
+    }
+    
+    .project-text
+    {
+        font-size: 4vw;   
+    }
+}
+

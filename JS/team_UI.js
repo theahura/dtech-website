@@ -28,7 +28,7 @@ var ericPic = "img/Eric_Klawitter.jpg";
 var ericName = "Eric Klawitter";
 var ericTitle = "Software Engineer - Chalk";
 
-var ganeshText = "";
+var ganeshText = "Ganesh Ravichandran is a second-year studying computer science at Columbia University. He is the lead developer on Arrow, and has been working on LexicalPT and RealRep. In addition to his work at Diagraphic, Ganesh also collaborates with Dr. Tim Morton at Princeton on NASA Kepler research, and is part of Columbia's ADI Labs, which seeks to design apps for the Columbia community. In addition to coding, Ganesh enjoys bicycling through the streets of Manhattan, finding new places to chill in NYC, and jump roping on Low Steps.";
 var ganeshPic = "img/Ganesh_Ravichandran.jpg";
 var ganeshName = "Ganesh Ravichandran";
 var ganeshTitle = "Full Stack Engineer, Project Manager - Arrow";
@@ -53,12 +53,12 @@ var maulinPic = "img/Maulin_Hemani.jpg";
 var maulinName = "Maulin Hemani";
 var maulinTitle = "Co-Founder, Head of Sales and Marketing";
 
-var sophieText = "";
+var sophieText = "Sophie is a sophomore at Columbia University studying computer science. She enjoys web development, particularly front-end, and brings her  typographic and responsive design knowledge to Diagraphic. Outside of the web, Sophie is also interested in personal data and the Internet of Things.";
 var sophiePic = "img/Sophie_Stadler.jpg";
 var sophieName = "Sophie Stadler";
-var sophieTitle = "Project Software Engineer - Arrow";
+var sophieTitle = "Project Software Engineer and Design Lead - Arrow";
 
-var steveText = "";
+var steveText = "Steven Sun is a junior at the University of Pennsylvania, and a full-stack dev/PM in training. He likes thinking about efficiency, humanity, and money. In his free time, he likes to swing-dance, learn new languages, and eat his weight in interesting homemade and gourmet cuisine.";
 var stevePic = "img/Steve_Sun.jpg";
 var steveName = "Steve Sun";
 var steveTitle = "Project Software Engineer and PR - RealRep";
@@ -129,4 +129,18 @@ $('.sophie').click(function() {
 
 $('.steve').click(function() {
 	setOverlay(stevePic, steveText, steveName, steveTitle);
+});
+
+//-------------------------------------------------------------
+
+$('.people-tab').click(function() {
+	$('.project-container').fadeOut(function() {
+		$('.people-container').fadeIn();
+	});
+});
+
+$('.project-tab').click(function() {
+	$('.people-container').fadeOut(function() {
+		$('.project-container').fadeIn();
+	});
 });
