@@ -77,6 +77,10 @@ $('.person-overlay').click(function() {
 	$(this).fadeOut();
 });
 
+$('.person-content-container').click(function(e) {
+	e.stopPropagation();
+});
+
 //--------------------------------------------------------------
 
 $('.adrian').click(function() {
