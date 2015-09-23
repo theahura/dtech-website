@@ -21,7 +21,22 @@
 
 .people-container {
   display: none;
+  text-align: center;
+  width: 100%;
 }
+
+  .people-container>li {
+    width: 50%;
+    margin-left: 25%;
+  } 
+
+    .header>.section-name {
+      text-align: center;
+      font-size: 2vw;
+    }
+
+  .people-container .header {
+  }
 
 .project-container {
   margin: auto;
