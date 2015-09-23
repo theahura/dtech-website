@@ -1,6 +1,6 @@
 var currentPage = "";
 
-window.onload = function() {
+$(window).load(function() {
 	$('.to-home').click(function() {
 		window.location = "index.html";
 	});
@@ -24,6 +24,6 @@ window.onload = function() {
 	});
 
 
-	if(!currentPage || currentPage !== 'chalk')
+	if(!currentPage || (currentPage !== 'chalk'))
 		$('.content').fadeIn();
-}
+});
