@@ -4,7 +4,12 @@ body {
 
 #background {
 	opacity: .25;
+	padding-left: 10px;
 }
+
+	#background>img {
+	    max-width:1250px;
+	}
 
 #get-started {
 	text-align: center;
