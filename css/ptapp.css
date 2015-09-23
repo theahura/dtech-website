@@ -15,16 +15,16 @@ body {
 
 	#get-started {
 		text-align: center;
-		font-size: 18pt;
+		font-size: 1.2vw;
 		color: #7a7a7a;
 		position: relative;
 		margin-top: -40%;
 	}
 
 	#pt-link {
-		border: 2px solid #4297f3;
-		padding: 10px;
-		border-radius: 10px;
+		border: solid #4297f3;
+		padding: 0.8%;
+		border-radius: 10%;
 		background-color: rgba(255, 255, 255, .5);
 		transition: border-radius .2s, background-color .2s;
 		-webkit-transition: border-radius .2s, background-color .2s;
@@ -40,6 +40,6 @@ body {
 		margin-right: auto;
 		max-width: 600px;
 		background-color: rgba(255, 255, 255, .5);
-		padding: 10px;
-		border-radius: 3px;
+		padding: .8%;
+		border-radius: 5%;
 	}
