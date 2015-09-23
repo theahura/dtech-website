@@ -5,14 +5,13 @@ $(window).on('beforeunload', function() {
 });
 
 //Title animation + original move in
-$(".chalk-container").stop().animate({
-	marginTop: 0
-}, 2500, function () {
- 	$(".chalk-title, .chalk-sub-title").stop().animate({
+$(".chalk-title, .chalk-sub-title").stop().animate({
  		opacity: 1
- 	}, 500);
-});
+ }, 500);
 
+$(".chalk-container").stop().animate({
+		marginTop: 0
+}, 2000);
 
 $(window).scroll(function() {
     clearTimeout($.data(this, 'scrollTimer'));
