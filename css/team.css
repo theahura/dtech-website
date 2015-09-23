@@ -41,18 +41,22 @@
       font-family: "Raleway", sans-serif;
     }
 
-    .face-container {
-      text-align: center;
-      margin: auto;
-    }
+.face-container {
+  text-align: center;
+  margin: auto;
+}
 
-      .face-container li {
-        margin: 2%;
-        padding: 7px;
-        display: inline-block;
-        background-color: #7a7a7a;
-        border-radius: 5%; 
-      }
+  .face-container>li {
+    display: inline-block;
+  }
+
+    .face-container>li>div {
+      margin: 2%;
+      padding: 7px;
+      float: left;
+      background-color: #7a7a7a;
+      border-radius: 5%; 
+    }
 
 .person-overlay {
   position: fixed;
