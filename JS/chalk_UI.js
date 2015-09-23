@@ -1,3 +1,5 @@
+var currentPage = 'chalk';
+
 $(window).on('beforeunload', function() {
     $(window).scrollTop(0, 0);
 });
@@ -5,7 +7,7 @@ $(window).on('beforeunload', function() {
 //Title animation + original move in
 $(".chalk-container").stop().animate({
 	marginTop: 0
-}, 2000, function () {
+}, 2500, function () {
  	$(".chalk-title, .chalk-sub-title").stop().animate({
  		opacity: 1
  	}, 500);

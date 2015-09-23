@@ -140,11 +140,13 @@ $('.steve').click(function() {
 $('.people-tab').click(function() {
 	$('.project-container').fadeOut(function() {
 		$('.people-container').fadeIn();
+		$("html, body").animate({ scrollTop: $(document).height() }, "slow");
 	});
 });
 
 $('.project-tab').click(function() {
 	$('.people-container').fadeOut(function() {
 		$('.project-container').fadeIn();
+		 $("html, body").animate({ scrollTop: $(document).height() }, "slow");
 	});
 });
