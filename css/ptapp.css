@@ -20,7 +20,7 @@ body {
 	border: 2px solid #4297f3;
 	padding: 10px;
 	border-radius: 10px;
-
+	background-color: rgba(255, 255, 255, .5);
 	transition: border-radius .2s, background-color .2s;
 	-webkit-transition: border-radius .2s, background-color .2s;
 	-moz-transition: border-radius .2s, background-color .2s;
