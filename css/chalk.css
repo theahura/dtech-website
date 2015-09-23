@@ -293,7 +293,7 @@
       {
         font-size: 5vw;
         width: 15%;
-        margin-left: 50%;
+        margin-left: 63%;
       }
 
        .name-title-one
@@ -327,19 +327,19 @@
 
        .name-two
       {
-        font-size: 20px;
+        font-size: 1.5vw;
       }
 
        .title-two
       {
-        font-size: 17px;
+        font-size: 1.5vw;
       }
 
 
 
         .main-text-three
       {
-        font-size: 20px;
+        font-size: 2.5vw;
         margin-top: 5%;
         margin-right: 10%;
       }
@@ -351,42 +351,43 @@
 
        .name-three
       {
-        font-size: 20px;
+        font-size: 2vw;
       }
 
        .title-three
       {
-        font-size: 17px;
+        font-size: 2vw;
       }
 
 
         .main-text-four
       {
-        font-size: 15px;
+        font-size: 2vw;
         margin-top: 5%;
-        margin-left: 5%;
+        width: 90%;
       }
 
        .name-title-four
       {
-        width: 65%;
+
+        width: 90%;
       }
 
        .name-four
       {
-        font-size: 10px;
+        font-size: 1.5vw;
       }
 
        .title-four
       {
-        font-size: 10px;
+        font-size: 1.5vw;
       }
 
        .main-text-five
       {
-        font-size: 30px;
+        font-size: 3vw;
         margin-top: 5%;
-        margin-right: 10%;
+        margin-right: 5%;
       }
 
        .name-title-five
@@ -396,12 +397,12 @@
 
        .name-five
       {
-        font-size: 25px;
+        font-size: 2vw;
       }
 
        .title-five
       {
-        font-size: 17px;
+        font-size: 2vw;
       }
 
       .test-6
@@ -411,29 +412,29 @@
 
 	       .main-text-six
 	      {
-	        font-size: 20px;
+	        font-size: 2vw;
 	        margin-top: 5%;
-	        margin-right: 40%;
+	        margin-right: 20%;
 	      }
 
 	       .name-title-six
 	      {
-	        width: 60%;
+	        width: 80%;
 	      }
 
 	       .name-six
 	      {
-	        font-size: 20px;
+	        font-size: 1.5vw;
 	      }
 
 	       .title-six
 	      {
-	        font-size: 17px;
+	        font-size: 1.5vw;
 	      }
 
        .main-text-seven
       {
-        font-size: 40px;
+        font-size: 2.5vw;
         margin-top: 5%;
         margin-right: 10%;
       }
@@ -445,12 +446,12 @@
 
        .name-seven
       {
-        font-size: 40px;
+        font-size: 1.5vw;
       }
 
        .title-seven
       {
-        font-size: 25px;
+        font-size: 1.5vw;
       }
 
 
@@ -460,7 +461,7 @@
 
 	       .main-text-eight
 	      {
-	        font-size: 20px;
+	        font-size: 1.6vw;
 	        margin-top: 5%;
 	        margin-right: 10%;
 	        margin-left: 20%;
@@ -473,12 +474,12 @@
 
 	       .name-eight
 	      {
-	        font-size: 17px;
+	        font-size: 1.2vw;
 	      }
 
 	       .title-eight
 	      {
-	        font-size: 15px;
+	        font-size: 1.2vw;
 	      }
 
         .main-text-nine
