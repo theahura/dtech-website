@@ -55,6 +55,9 @@
     width: 20%;
   }
 
+    .menu-container li a div {
+      width: 100%;
+    }
 
 .footer
 {
