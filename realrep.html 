@@ -64,11 +64,18 @@
 
             <div class ="circle" id ="light"> 
                 <p class ="chalk-sub-title"> 
-                 social media 
+                 <strong> Social Media </strong>
              </p>
                 <p class ="chalk-sub-title"> 
                 
-                the core of realrep is the JUDGR(newnameneeded) page
+                The core of RealRep is the <strong> choicr </strong> page.
+             </p>
+             <p class ="chalk-sub-title"> 
+                 Here, the user can decide whether a particular term, not limited to but including words such as "cool," "squirrel," and "intelligent," apply to their friends. 
+             </p>
+             <p class ="chalk-sub-title"> 
+                Using a similar user interface to tindr and NAME, 
+                using reawlrep is intuitive and surprisingly addictive.
              </p>
             </div> 
 
@@ -78,14 +85,14 @@
 
             <div class ="circle circle2" id ="light"> 
                 <p class ="chalk-sub-title"> 
-                 data visualization 
+                <strong> Data Visualization </strong>
              </p>
                 
             </div> 
 
             <div class ="circle circle3" id ="dark"> 
                 <p class ="chalk-sub-title"> 
-                 data visualization 
+                 
              </p>
                 
             </div> 
@@ -96,7 +103,7 @@
 
            <div class ="circleright circle1" id ="light"> 
             <p class ="chalk-sub-title"> 
-                data collection/connection
+                <strong> Data Connections </strong>
              </p>
             </div>  
 
@@ -106,7 +113,8 @@
 
             <div class ="circleright circle3" id ="light"> 
                 <p class ="chalk-sub-title"> 
-                 data visualization 
+                 <strong>Data Correlations </strong> 
+
              </p>
                 
             </div> 
