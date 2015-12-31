@@ -72,11 +72,11 @@
 
 .ellipse{
   margin-top: 3vw;
-  width: 88vw;
+  width: 90vw;
     height: 26vw;
-    border-radius: 60px;
+    border-radius: 0px 50px 50px 0px;
     background: red;
-   margin-left: 6vw;
+   margin-left: 0vw;
   float: left;
   position: absolute;
   text-align: center;
@@ -91,13 +91,13 @@
 .circle{
   width: 40vw;
     height: 40vw;
-    border-radius: 50%;
+    border-radius: 50px 15px;
     background: red;
-    margin-top: 45vw;
+    margin-top: 40vw;
    margin-left: 6vw;
   float: left;
   position: absolute;
-  text-align: center;
+  text-align: left;
   vertical-align: middle;
   outline-color: transparent;
   font-size: 2.5vw; 
@@ -109,7 +109,7 @@
 .circleright{
    float: left;
    margin-left: 54vw;
-   margin-top: 45vw;
+   margin-top: 40vw;
     width: 40vw;
     height: 40vw;
     border-radius: 50%;
@@ -125,19 +125,19 @@
 }
 
 .circle1{
-  width: 30vw;
-    height: 30vw;
-  margin-top: 95vw;
+  margin-top: 85vw;
 }
 
 .circle2{
-  margin-top: 135vw;
+  margin-top: 130vw;
 }
 
 .circle3{
-  width: 30vw;
-    height: 30vw;
-  margin-top: 185vw;
+  margin-top: 175vw;
+}
+
+.circle4{
+  margin-top: 220vw;
 }
 
 #light{
@@ -155,9 +155,10 @@
   opacity: 0;
 
   color: rgb(67, 67, 103);
-  text-align: center;
+  margin-left: 15px;
+  text-align: left;
   font-size: 240%;
-  font-family: Calibri, sans-serif;
+  font-family: "Raleway", sans-serif;
   cursor: pointer;
   margin-bottom: 2vw;
 }
@@ -165,12 +166,12 @@
 .chalk-sub-title
 {
   opacity: 0;
-
+   margin-left: 15px;
   color: rgb(67, 67, 103);
 
-  text-align: center;
+  text-align: left;
   font-size: 2vw;
-  font-family: Calibri, sans-serif;
+  font-family: "Raleway", sans-serif;
 
   cursor: pointer;
 }
