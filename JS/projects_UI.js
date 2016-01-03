@@ -1,5 +1,6 @@
   /* Scrollto for People */
     $('.down').click(function(){ $('html,body').animate({ scrollTop:   $('.gen-content').offset().top},300);});
+    $('#debate').click(function(){ $('html,body').animate({ scrollTop:   $('#Debate_Content').offset().top},300);});
     $('#dnd').click(function(){ $('html,body').animate({ scrollTop:   $('#DND_Content').offset().top},300);});
     $('#mumblr').click(function(){ $('html,body').animate({ scrollTop:   $('#Mumblr_Content').offset().top},300);});
     $('#defendthelounge').click(function(){ $('html,body').animate({ scrollTop:   $('#Defend_Lounge').offset().top},300);});
