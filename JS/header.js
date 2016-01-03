@@ -23,6 +23,12 @@ $(window).load(function() {
 		});
 	});
 
+	$('.to-contact').click(function() {
+		$('.content').fadeOut(function() {
+			window.location = "contact.html";
+		});
+	});
+
 
 	if(!currentPage || (currentPage !== 'chalk'))
 		$('.content').fadeIn();
