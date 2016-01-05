@@ -43,6 +43,9 @@
                 <li class="link to-projects button">
                     <a href="projects.html"> Projects </a>   
                 </li>
+                <li class="link to-contact button">
+                    <a href="contact.html"> Contact Us </a>
+                </li>
             </ul>
         </div>
         
