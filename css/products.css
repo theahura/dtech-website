@@ -1,0 +1,51 @@
+.product-container
+{
+  width: 100%;
+}
+
+  .product-container li
+  {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+  }
+
+    .product-container li .text
+    {
+      margin-top: 4%;
+      font-size: 1.3vw;
+      text-align: center;
+      font-family: 'Roboto Slab', serif; 
+   	  color: gray;
+    }
+
+    .product-container li .image
+    {
+      border-radius:50%;
+      background-color:#e0e0e0;    
+      cursor:pointer;
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 50%;
+      height: 0%;
+      padding-top: 50%;
+      margin-left: 25%;
+    }
+
+    .product-container li .image:hover
+    {
+        -webkit-box-shadow:0 0 28px 6px rgba(66, 166, 243, 0.8);
+        -moz-box-shadow: 0 0 28px 6px rgba(66, 166, 243, 0.8);
+        box-shadow: 0 0 28px 6px rgba(66, 166, 243, 0.8);
+    }
+    .product-container li .image:active
+    {
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3), inset 0px 2px 5px rgba(0, 0, 0, 0.3), 0 0 28px 6px rgba(66, 166, 243, 0.8);
+        -moz-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3), inset 0px 2px 5px rgba(0, 0, 0, 0.3), 0 0 28px 6px rgba(66, 166, 243, 0.8);
+        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3), inset 0px 2px 5px rgba(0, 0, 0, 0.3), 0 0 28px 6px rgba(66, 166, 243, 0.8);
+    }
+
+
+    .chalk { background-image:url(../img/chalk.png); }
+    .lexical {background-image:url(../img/lexical.png);}
+    .realrep { background-image:url(../img/realrep.png);}
