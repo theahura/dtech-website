@@ -5,6 +5,8 @@
            <link rel="icon" type="image/png" href="img/logo.png">
 
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+
         <link href='http://fonts.googleapis.com/css?family=Raleway:400,100' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="css/header.css">
@@ -51,12 +53,95 @@
         </div>
 
         <div class="content background">
-            <img src="img/rerepbackground.png" style ="width: 100%"></img>
-        
+            <div class="suggestion">
+                Scroll, Drag, and Hover to Learn about RealRep
+            </div>
+            <div class="suggestion">
+                Click any Node to Learn More, or Click the Logo To Try it Out
+            </div>
+            <div class="suggestion enable-zoom button" hidden> Click Here to Enable Zoom </div> 
+            <div class="map-container"> </div> 
+
+            <div class='panel' id='realrep'>
+                <div class='spacer-15'></div>
+                <img src='img/logo1.png'></img>
+                <div class='subheader'> Explore. Visualize. Connect. </div>
+            </div>
+            <div class='panel' id='selfProfile'>
+                <div class='title'> Your Profile. Your Home. </div>
+                <img class='banner-image' src='img/selfprof.png'></img>
+                <div class='text'> Lorem ipsum dolor sit amet, mel ipsum partem aliquando ad, facilisi imperdiet definitionem nec id. Et cum ceteros fabellas scribentur, elitr persius sea ne. Nam ea malorum deserunt, vel quot nostro aliquid id. Utinam audiam voluptatibus ne vix. Amet dolores ne sea, legendos honestatis eu pro, scripta regione bonorum vim ea. Ex movet oblique nam. Id has euismod reprehendunt, quo porro quando eu.
+
+                No qui posse aeque voluptaria, id facilis tractatos vis. Modo dolorum inermis mei ad, verear vituperata ut sea. Et qui sale modus, justo nusquam signiferumque ei mel, ignota conclusionemque ne eos. Sea ei eirmod nonumes periculis, te est porro nemore diceret. Ei labore nominati sit.
+
+                Enim harum et duo. Iusto affert pro id, diceret consequat vulputate et his. Ceteros definiebas temporibus ad eum, est alii delicata democritum in, ut dicit dicam nam. Oratio scriptorem sed eu. Te facer dicunt possim sea, has oblique lucilius sententiae id. Qui enim nibh aperiam an, clita legimus abhorreant mei et.
+
+                Veri latine duo ea. In vis similique dissentiet mediocritatem, cum an oratio causae hendrerit, vis suas habeo idque eu. In ius impetus petentium, quod denique minimum no nec, natum doming minimum nam no. Ne his postea posidonium efficiendi.
+
+                Vim ex tation persius. Id cum justo dolor, pri ea placerat corrumpit. Eos solet theophrastus ex. Et erat populo vel, eu cum veri neglegentur.</div>
+
+                <div class='spacer-5'></div>
+            </div>
+            <div class='panel' id='judgr'>
+                <div class='title'> Make Your Opinion Known </div>
+
+                <img class='banner-image' src='img/check.png'></img>
+                <img class='banner-image' src='img/x.png'></img>
+
+                <div class='text'> Lorem ipsum dolor sit amet, mel ipsum partem aliquando ad, facilisi imperdiet definitionem nec id. Et cum ceteros fabellas scribentur, elitr persius sea ne. Nam ea malorum deserunt, vel quot nostro aliquid id. Utinam audiam voluptatibus ne vix. Amet dolores ne sea, legendos honestatis eu pro, scripta regione bonorum vim ea. Ex movet oblique nam. Id has euismod reprehendunt, quo porro quando eu.
+
+                No qui posse aeque voluptaria, id facilis tractatos vis. Modo dolorum inermis mei ad, verear vituperata ut sea. Et qui sale modus, justo nusquam signiferumque ei mel, ignota conclusionemque ne eos. Sea ei eirmod nonumes periculis, te est porro nemore diceret. Ei labore nominati sit.
+
+                Enim harum et duo. Iusto affert pro id, diceret consequat vulputate et his. Ceteros definiebas temporibus ad eum, est alii delicata democritum in, ut dicit dicam nam. Oratio scriptorem sed eu. Te facer dicunt possim sea, has oblique lucilius sententiae id. Qui enim nibh aperiam an, clita legimus abhorreant mei et.
+
+                Veri latine duo ea. In vis similique dissentiet mediocritatem, cum an oratio causae hendrerit, vis suas habeo idque eu. In ius impetus petentium, quod denique minimum no nec, natum doming minimum nam no. Ne his postea posidonium efficiendi.
+
+                Vim ex tation persius. Id cum justo dolor, pri ea placerat corrumpit. Eos solet theophrastus ex. Et erat populo vel, eu cum veri neglegentur.</div>
+
+            </div>
+            <div class='panel' id='friendsProfile'>
+                <div class='title'> Learn About Your Friends </div>
+                <img class='banner-image first' src='img/friendnetwork.png'></img>
+                <div class='text t-first'> Lorem ipsum dolor sit amet, mel ipsum partem aliquando ad, facilisi imperdiet definitionem nec id. Et cum ceteros fabellas scribentur, elitr persius sea ne. Nam ea malorum deserunt, vel quot nostro aliquid id. Utinam audiam voluptatibus ne vix. Amet dolores ne sea, legendos honestatis eu pro, scripta regione bonorum vim ea. Ex movet oblique nam. Id has euismod reprehendunt, quo porro quando eu.
+
+                No qui posse aeque voluptaria, id facilis tractatos vis. Modo dolorum inermis mei ad, verear vituperata ut sea. Et qui sale modus, justo nusquam signiferumque ei mel, ignota conclusionemque ne eos. Sea ei eirmod nonumes periculis, te est porro nemore diceret. Ei labore nominati sit.
+                </div>
+
+                <img class='banner-image second' src='img/friendprof.png'></img>
+                <br>
+                <br>
+                <div class='text t-second'> Enim harum et duo. Iusto affert pro id, diceret consequat vulputate et his. Ceteros definiebas temporibus ad eum, est alii delicata democritum in, ut dicit dicam nam. Oratio scriptorem sed eu. Te facer dicunt possim sea, has oblique lucilius sententiae id. Qui enim nibh aperiam an, clita legimus abhorreant mei et.
+
+                Veri latine duo ea. In vis similique dissentiet mediocritatem, cum an oratio causae hendrerit, vis suas habeo idque eu. In ius impetus petentium, quod denique minimum no nec, natum doming minimum nam no. Ne his postea posidonium efficiendi.
+
+                Vim ex tation persius. Id cum justo dolor, pri ea placerat corrumpit. Eos solet theophrastus ex. Et erat populo vel, eu cum veri neglegentur.</div>
+            </div>
+            <div class='panel' id='correlations'>
+                <div class='title'> See What the World Thinks </div>
+                
+                <img class='banner-image' src='img/correlations.png'></img>
+
+                <div class='text'> Lorem ipsum dolor sit amet, mel ipsum partem aliquando ad, facilisi imperdiet definitionem nec id. Et cum ceteros fabellas scribentur, elitr persius sea ne. Nam ea malorum deserunt, vel quot nostro aliquid id. Utinam audiam voluptatibus ne vix. Amet dolores ne sea, legendos honestatis eu pro, scripta regione bonorum vim ea. Ex movet oblique nam. Id has euismod reprehendunt, quo porro quando eu.
+
+                No qui posse aeque voluptaria, id facilis tractatos vis. Modo dolorum inermis mei ad, verear vituperata ut sea. Et qui sale modus, justo nusquam signiferumque ei mel, ignota conclusionemque ne eos. Sea ei eirmod nonumes periculis, te est porro nemore diceret. Ei labore nominati sit.
+
+                Enim harum et duo. Iusto affert pro id, diceret consequat vulputate et his. Ceteros definiebas temporibus ad eum, est alii delicata democritum in, ut dicit dicam nam. Oratio scriptorem sed eu. Te facer dicunt possim sea, has oblique lucilius sententiae id. Qui enim nibh aperiam an, clita legimus abhorreant mei et.
+
+                Veri latine duo ea. In vis similique dissentiet mediocritatem, cum an oratio causae hendrerit, vis suas habeo idque eu. In ius impetus petentium, quod denique minimum no nec, natum doming minimum nam no. Ne his postea posidonium efficiendi.
+
+                Vim ex tation persius. Id cum justo dolor, pri ea placerat corrumpit. Eos solet theophrastus ex. Et erat populo vel, eu cum veri neglegentur.</div>
+            </div>
+            <div class='panel' id='endtag'>
+                <div class='end-tag'> RealRep. <br> The app that connects us to connect you to connect us all.
+                </div>
+
+                <div class='end-tag-two'> <a href="realrep.diagraphictech.com"> Click Here to Try it Out </a> </div>
+            </div>
         </div>
 
         <script src="JS/header.js"></script>
-    	<script src="JS/chalk_UI.js"></script>
+        <script src="JS/d3_api.js"></script>
+    	<script src="JS/realrep_UI.js"></script>
 
     </body>
 

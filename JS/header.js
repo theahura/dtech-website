@@ -29,7 +29,15 @@ $(window).load(function() {
 		});
 	});
 
+	$('.to-products').click(function() {
+		$('.content').fadeOut(function() {
+			window.location = "products.html";
+		});
+	});
 
 	if(!currentPage || (currentPage !== 'chalk'))
-		$('.content').fadeIn();
+		$('.content').fadeIn(function() {
+			if(loadPage)
+				loadPage();
+		});
 });

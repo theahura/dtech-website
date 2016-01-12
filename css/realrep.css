@@ -1,621 +1,140 @@
-.content {
-  display: block;
-}
-
-.background{
-  margin-left: 0;
-}
-
-/* Main Logo */
-.fit 
-{ 
-  width:  auto;
-  height: 100%;
-}
-
-.fit-width
-{ 
-  width:  100%;
-  height: auto;
-}
-
-.center 
-{
-  display: block;
-  margin: auto;
-}
-
-#Logo
-{
-  display: none;
-}
-
-/* Company name */
-.company-name
-{
-  text-align: center;
-  font-size: 2vw;
-  margin-top: 100px;
-  opacity: 0;
-}
-
-/* Menu */
-
-.menu-container
-{
-  padding: 0 0;
-  margin: 0 0;
-  display: none;
+.suggestion {
   width: 100%;
   text-align: center;
 }
 
-  .menu-container li
-  {
-    -webkit-border-image: -webkit-gradient(linear, 0 0, 0 100%, from(#4297f3), to(rgba(0, 0, 0, 0))) 1 100%;
+.map-container {
+  width: 100%;
+  height: 100%;
+}
 
+.panel {
+  width: 100%;
+  height: 95%;
+  font-family:"Arvo", serif;
+  color: #7a7a7a;
+}
 
-    display: inline-block;
+  .banner-image {
+    width: 50%;
+  }
+
+  #realrep {
     text-align: center;
-    font-size: 1.5vw;
-    width: 20%;
   }
-
-
-.footer
-{
-    width: 100%;
-    position: fixed;
-    bottom: 0%;
-}
-
-
-
-
-/* Chalk page stuff */
-
-.ellipse{
-  margin-top: 3vw;
-  width: 90vw;
-    height: 26vw;
-    border-radius: 0px 50px 50px 0px;
-    background: red;
-   margin-left: 0vw;
-  float: left;
-  position: absolute;
-  text-align: center;
-  vertical-align: middle;
-  outline-color: transparent;
-  font-size: 2.5vw; 
-  color: white;
-  font-family: "Raleway", "sans-serif";
-
-}
-
-.circle{
-  width: 40vw;
-    height: 40vw;
-    border-radius: 50px 15px;
-    background: red;
-    margin-top: 40vw;
-   margin-left: 6vw;
-  float: left;
-  position: absolute;
-  text-align: left;
-  vertical-align: middle;
-  outline-color: transparent;
-  font-size: 2.5vw; 
-  color: white;
-  font-family: "Raleway", "sans-serif";
-
-}
-
-.circleright{
-   float: left;
-   margin-left: 54vw;
-   margin-top: 40vw;
-    width: 40vw;
-    height: 40vw;
-    border-radius: 50%;
-    background: red;
-  position: absolute;
-  text-align: center;
-  vertical-align: middle;
-  outline-color: transparent;
-  font-size: 2.5vw; 
-  color: white;
-  font-family: "Raleway", "sans-serif";
-
-}
-
-.circle1{
-  margin-top: 85vw;
-}
-
-.circle2{
-  margin-top: 130vw;
-}
-
-.circle3{
-  margin-top: 175vw;
-}
-
-.circle4{
-  margin-top: 220vw;
-}
-
-#light{
-  background-color: #9fdaf6;
-
-}
-
-#dark{
-   background-color: #292085;
-
-}
-
-.chalk-title
-{
-  opacity: 0;
-
-  color: rgb(67, 67, 103);
-  margin-left: 15px;
-  text-align: left;
-  font-size: 240%;
-  font-family: "Raleway", sans-serif;
-  cursor: pointer;
-  margin-bottom: 2vw;
-}
-
-.chalk-sub-title
-{
-  opacity: 0;
-   margin-left: 15px;
-  color: rgb(67, 67, 103);
-
-  text-align: left;
-  font-size: 2vw;
-  font-family: "Raleway", sans-serif;
-
-  cursor: pointer;
-}
-
-.chalk-container
-{
-  margin-top: 100%;
-  position: relative;
-
-}
-
-  .chalk-content
-  {
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    width: 100%;
-    height: 100%;
-  }
-
-  .chalk-header
-  {
-    position: relative;
-    font-size: 3vw;
-    font-weight: 500;
-    margin-left: 2%;
-  }
-
-  .features-content
-  {
-    height: 18%;
-  }
-
-    .features-container
-    {
-      margin-top: 8%;
-      margin-left: 20%;
-      width: 80%;
-      height: 70%;
+    #realrep img {
+      width: 30%;
     }
 
-      .features-container-item
-      {
-        display: inline-block;
-        vertical-align:top;
-        font-weight: 500;
-      }
+    #realrep .subheader {
+      font-size: 3vw;
+      font-family:"Raleway",sans-serif;
+      color:#4297f3;
+    }
 
-      .item-1
-      {
-        width: 20%;
-        height: 100%;
-      }
-
-      .item-2
-      {
-        margin-left: 10%;
-        width: 50%;
-      }
-
-        .features-menu
-        {
-          list-style: none;
-          height: 100%;
-        }
-
-          .features-menu li
-          {
-            width: 100%;
-            height: 25%;
-          }
-
-            .features-menu li .text
-            {
-              margin-top: 4%;
-              font-size: 1.3vw;
-              text-align: center;
-              font-family: 'Roboto Slab', serif; 
-           	  color: gray;
-            }
-
-            .features-menu li .image
-            {
-              width:75%;
-              height:80%;
-              border-radius:50%;
-              background-color:#e0e0e0;
-              line-height:75px;
-              margin:0 auto;
-              font-size:2vw;
-              cursor:pointer;
-              text-align: center;
-              background-size:100% 100%;
-            }
-
-            .features-menu li .image:hover
-            {
-                -webkit-box-shadow:0 0 28px 6px rgba(66, 166, 243, 0.8);
-                -moz-box-shadow: 0 0 28px 6px rgba(66, 166, 243, 0.8);
-                box-shadow: 0 0 28px 6px rgba(66, 166, 243, 0.8);
-            }
-            .features-menu li .image:active
-            {
-                -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3), inset 0px 2px 5px rgba(0, 0, 0, 0.3), 0 0 28px 6px rgba(66, 166, 243, 0.8);
-                -moz-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3), inset 0px 2px 5px rgba(0, 0, 0, 0.3), 0 0 28px 6px rgba(66, 166, 243, 0.8);
-                box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3), inset 0px 2px 5px rgba(0, 0, 0, 0.3), 0 0 28px 6px rgba(66, 166, 243, 0.8);
-            }
-
-
-            #HowItWorks { background-image:url(../img/how_chalk_works_header.png); }
-            #IntuitiveUI {background-image:url(../img/IntuitiveUI.png);}
-            #StylusBetter { background-image:url(../img/StylusBetter.jpg);}
-            #TraditionalistsToo { background-image:url(../img/traditionalists.jpg);}
-
-
-
-        .features-expanded
-        {
-          margin-top: 10%;
-          border-radius:20px;
-          overflow: auto;
-          background: #e0e0e0;
-          width: 100%;
-          height: 85%;
-        }
-
-          .features-expanded .image
-          {
-            width:75%;
-            height:50%;
-            border-radius:20px;
-            margin: 0 auto;
-            margin-top: 10%;
-            margin-bottom: 7%;
-            font-size:3vw;
-            text-align: center;
-            background-size:100% 100%;
-          }
-
-          .features-expanded .text
-          {
-            margin: auto;
-            width: 80%;
-            height: 30%;
-            overflow: hidden;
-            font-size: 1.3vw;
-            font-family: 'Roboto Slab', serif; 
-           	color: gray;
-          }
-
-            #ExpandedImage { background-image: url(../img/how_chalk_works_chart.png)}
-
-            .features-expanded .text p
-            {
-              text-align: justify;
-              margin-left: 10%;
-              margin-right: 10%;
-              color: black;
-            }
-
-          .dots
-          {
-            text-align: center;
-
-          }
-
-            .dots li
-            {
-              display: inline;
-              border-radius: 50%;
-              border-style: solid;
-            }
-
-
-  .testimonials-content
-  {
-    height: 21%;
+  #selfProfile {
+    background: #E5E5FF;
   }
 
-    .testimonials-container
-    {
+    #selfProfile img {
       float: right;
-      text-align: right;
-      font-family: 'Roboto Slab', serif; 
-      color: gray;
+      margin-right: 3%;
+      padding-top: 3%;
     }
 
-       .name
-      {
-        text-align: right;
-      }
-
-       .title
-      {
-        text-align: right;
-      }
-
-       .main-text-one
-      {
-        font-size: 5vw;
-        width: 15%;
-        margin-left: 63%;
-      }
-
-       .name-title-one
-      {
-        width: 80%;
-      }
-
-       .name-one
-      {
-        font-size: 3vw;
-      }
-
-       .title-one
-      {
-        font-size: 3vw;
-      }
-
-
-       .main-text-two
-      {
-        font-size: 3vw;
-        margin-top: 5%;
-        margin-left: 15%;
-        width: 69%;
-      }
-
-       .name-title-two
-      {
-        width: 80%;
-      }
-
-       .name-two
-      {
-        font-size: 1.5vw;
-      }
-
-       .title-two
-      {
-        font-size: 1.5vw;
-      }
-
-
-
-        .main-text-three
-      {
-        font-size: 2.5vw;
-        margin-top: 5%;
-        margin-right: 10%;
-      }
-
-       .name-title-three
-      {
-        width: 90%;
-      }
-
-       .name-three
-      {
-        font-size: 2vw;
-      }
-
-       .title-three
-      {
-        font-size: 2vw;
-      }
-
-
-        .main-text-four
-      {
-        font-size: 2vw;
-        margin-top: 5%;
-        width: 90%;
-      }
-
-       .name-title-four
-      {
-
-        width: 90%;
-      }
-
-       .name-four
-      {
-        font-size: 1.5vw;
-      }
-
-       .title-four
-      {
-        font-size: 1.5vw;
-      }
-
-       .main-text-five
-      {
-        font-size: 3vw;
-        margin-top: 5%;
-        margin-right: 5%;
-      }
-
-       .name-title-five
-      {
-        width: 90%;
-      }
-
-       .name-five
-      {
-        font-size: 2vw;
-      }
-
-       .title-five
-      {
-        font-size: 2vw;
-      }
-
-      .test-6
-      {
-      	margin-left: 15%;
-      }
-
-	       .main-text-six
-	      {
-	        font-size: 2vw;
-	        margin-top: 5%;
-	        margin-right: 20%;
-	      }
-
-	       .name-title-six
-	      {
-	        width: 80%;
-	      }
-
-	       .name-six
-	      {
-	        font-size: 1.5vw;
-	      }
-
-	       .title-six
-	      {
-	        font-size: 1.5vw;
-	      }
-
-       .main-text-seven
-      {
-        font-size: 2.5vw;
-        margin-top: 5%;
-        margin-right: 10%;
-      }
-
-       .name-title-seven
-      {
-        width: 90%;
-      }
-
-       .name-seven
-      {
-        font-size: 1.5vw;
-      }
-
-       .title-seven
-      {
-        font-size: 1.5vw;
-      }
-
-
-      .test-8
-      {
-      }
-
-	       .main-text-eight
-	      {
-	        font-size: 1.6vw;
-	        margin-top: 5%;
-	        margin-right: 10%;
-	        margin-left: 20%;
-	      }
-
-	       .name-title-eight
-	      {
-	        width: 90%;
-	      }
-
-	       .name-eight
-	      {
-	        font-size: 1.2vw;
-	      }
-
-	       .title-eight
-	      {
-	        font-size: 1.2vw;
-	      }
-
-        .main-text-nine
-      {
-        font-size: 25px;
-        margin-top: 5%;
-        margin-right: 10%;
-        margin-left: 40%;
-        width: 50%;
-      }
-
-       .name-title-nine
-      {
-        width: 90%;
-      }
-
-       .name-nine
-      {
-        font-size: 22px;
-      }
-
-       .title-nine
-      {
-        font-size: 20px;
-      }
-
-
-  .video-one-content
-  {
-    height: 17%;
-  }
-
-    #firstvid
-    {
-      margin-left: 25%;
-      margin-top: 20%;
+    #selfProfile .text {
+      padding-top: 3%;
+      margin-left: 3%;
+      text-align: justify;
       width: 40%;
-      height: 40%;
+      font-size: 1.2vw;
+      overflow: auto;
     }
 
-  .competition-content
-  {
-    height: 15%;
+  #judgr {
+    background: white;
   }
 
-    #CompetitionImage
-    {
-      background-image: url(../img/competition.png);
-      background-size:100% 100%;
-      margin-left: 40%;
-      margin-top: 5%;
-      width: 50%;
-      height: 50%;
+    #judgr img {
+      display: inline-block;
+      width: 19.5%;
+      margin-left: 20%;
+      padding-top: 3%;
+    }
+
+    #judgr .text {
+      padding-top: 3%;
+      margin-left: 3%;
+      text-align: justify;
+      width: 94%;
+      font-size: 1.2vw;
+      overflow: auto;
+    }
+
+  #friendsProfile {
+    background: #CCCCFF;
+  }
+
+    #friendsProfile img {
+      width: 44%;
+      padding-top: 3%;
+      margin-left: 3%;
+      margin-right: 3%;
+    }
+
+    #friendsProfile .first {
+      float: left;
+    }
+
+    #friendsProfile .t-first {
+      margin-top: 3%;
+    }
+
+    #friendsProfile .second {
+      float: right;
+    }
+
+    #friendsProfile .t-second {
+      margin-top: 15%;
+      margin-left: 3%;
+    }
+
+  #correlations {
+    background: #E5E5FF;
+  }
+
+    .title {
+      padding-top: 2%;
+      font-size: 2vw;
+      margin-left: 3%;
+    }
+
+    #correlations img {
+      float: right;
+      margin-right: 3%;
+      padding-top: 3%;
+    }
+
+    #correlations .text {
+      padding-top: 3%;
+      margin-left: 3%;
+      text-align: justify;
+      width: 40%;
+      font-size: 1.2vw;
+      overflow: auto;
+    }
+
+  #endtag {
+    text-align: center;
+    line-height: 16vw;
+    font-size: 3vw;
+    font-family:"Raleway",sans-serif;
+    color:#4297f3;  
+  }
+    #endtag div {
+      /* margin-top: 6%; */
+    }
+
+    #endtag .end-tag-two {
+      font-size: 2vw;
     }
