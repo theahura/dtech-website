@@ -240,6 +240,7 @@ function createGraph(DOMelement, graph) {
 
 	$('.enable-zoom').click(function() {
 		svg.call(zoom, networkContainer);
+		 $('.suggestion').fadeToggle();
 	});
 
 } 

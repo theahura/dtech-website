@@ -64,21 +64,23 @@
 
             <div class='panel' id='realrep'>
                 <div class='spacer-15'></div>
-                <img src='img/logo1.png'></img>
+                <a class='button' href='http://realrep.diagraphictech.com'>
+                    <img src='img/logo1.png'></img>
+                </a>
                 <div class='subheader'> Explore. Visualize. Connect. </div>
             </div>
             <div class='panel' id='selfProfile'>
                 <div class='title'> Your Profile. Your Home. </div>
                 <img class='banner-image' src='img/selfprof.png'></img>
-                <div class='text'> Lorem ipsum dolor sit amet, mel ipsum partem aliquando ad, facilisi imperdiet definitionem nec id. Et cum ceteros fabellas scribentur, elitr persius sea ne. Nam ea malorum deserunt, vel quot nostro aliquid id. Utinam audiam voluptatibus ne vix. Amet dolores ne sea, legendos honestatis eu pro, scripta regione bonorum vim ea. Ex movet oblique nam. Id has euismod reprehendunt, quo porro quando eu.
+                <div class='text'> Real Rep gives you access to data in a way that no other social media app does. That means that you can see exactly what your social footprint is. Thanks to the anonymous judging system that forms the backbone of the Real Rep data gathering system, you can directly pull the number of people who associate you with various traits, ideas, hobbies, objects...you get, in total, your real reputation.
+                <br>
+                <br>
+                Real Rep is about data visualization - easily presentable data is the foundation of the application and defined how it was built from the start. Users are presented with an easy to understand and easy to manipulate chart that quickly displays all of the relevant information that is color coded for convenience. See what you are directly related to with the red nodes; see what you are tangentially related to in the blue. Overall, you can get a stronger sense of how you relate to the world around you, often in ways that may be totally unexpected. The rest of the interface is designed with simplicity in mind - users can go from their profile to any other portion of the application with only a single click. 
+                <br>
+                <br>
+                You have the ability to take control of your profile and your data. By choosing what data is displayed to start when you first log in - what, in short, you think of yourself - you have the opportunity to define how other information correlates to yours. And, Facebook access simply strengthens the profile, giving you and your friends a more complete view of who you really are. 
 
-                No qui posse aeque voluptaria, id facilis tractatos vis. Modo dolorum inermis mei ad, verear vituperata ut sea. Et qui sale modus, justo nusquam signiferumque ei mel, ignota conclusionemque ne eos. Sea ei eirmod nonumes periculis, te est porro nemore diceret. Ei labore nominati sit.
-
-                Enim harum et duo. Iusto affert pro id, diceret consequat vulputate et his. Ceteros definiebas temporibus ad eum, est alii delicata democritum in, ut dicit dicam nam. Oratio scriptorem sed eu. Te facer dicunt possim sea, has oblique lucilius sententiae id. Qui enim nibh aperiam an, clita legimus abhorreant mei et.
-
-                Veri latine duo ea. In vis similique dissentiet mediocritatem, cum an oratio causae hendrerit, vis suas habeo idque eu. In ius impetus petentium, quod denique minimum no nec, natum doming minimum nam no. Ne his postea posidonium efficiendi.
-
-                Vim ex tation persius. Id cum justo dolor, pri ea placerat corrumpit. Eos solet theophrastus ex. Et erat populo vel, eu cum veri neglegentur.</div>
+               </div>
 
                 <div class='spacer-5'></div>
             </div>
@@ -88,48 +90,49 @@
                 <img class='banner-image' src='img/check.png'></img>
                 <img class='banner-image' src='img/x.png'></img>
 
-                <div class='text'> Lorem ipsum dolor sit amet, mel ipsum partem aliquando ad, facilisi imperdiet definitionem nec id. Et cum ceteros fabellas scribentur, elitr persius sea ne. Nam ea malorum deserunt, vel quot nostro aliquid id. Utinam audiam voluptatibus ne vix. Amet dolores ne sea, legendos honestatis eu pro, scripta regione bonorum vim ea. Ex movet oblique nam. Id has euismod reprehendunt, quo porro quando eu.
+                <div class='text'> A huge part of how Real Rep works is through the ability to judge your friends. You have the chance to quickly and anonomously define the profile maps of anyone on your Facebook friend list. Make your opinion known, and help others discover what they are actually like. Let your gut instinct guide you as you endorse or pass various phrases and words for your friends. 
+                <br>
+                <br>
+                We take bullying very seriously at Diagraphic Technologies, and we understand the possibility for abuse of such a system. We have taken numerous steps to ensure that users are not flooded with harmful messages, and monitor our databases for any inappropriate feedback. You will notice, for example, that users cannot choose their own phrases; instead, they can only select data points that the system chooses to display. Various restrictions can and will quickly be put in place on accounts that are shown to manipulate data.
+                <br>
+                <br>
+                But, all of this in mind, we understand that negative feedback is important for growth - and, of course, is a fair bit of fun in itself. Be respectful, be helpful, and make Real Rep enjoyable for everyone. 
 
-                No qui posse aeque voluptaria, id facilis tractatos vis. Modo dolorum inermis mei ad, verear vituperata ut sea. Et qui sale modus, justo nusquam signiferumque ei mel, ignota conclusionemque ne eos. Sea ei eirmod nonumes periculis, te est porro nemore diceret. Ei labore nominati sit.
-
-                Enim harum et duo. Iusto affert pro id, diceret consequat vulputate et his. Ceteros definiebas temporibus ad eum, est alii delicata democritum in, ut dicit dicam nam. Oratio scriptorem sed eu. Te facer dicunt possim sea, has oblique lucilius sententiae id. Qui enim nibh aperiam an, clita legimus abhorreant mei et.
-
-                Veri latine duo ea. In vis similique dissentiet mediocritatem, cum an oratio causae hendrerit, vis suas habeo idque eu. In ius impetus petentium, quod denique minimum no nec, natum doming minimum nam no. Ne his postea posidonium efficiendi.
-
-                Vim ex tation persius. Id cum justo dolor, pri ea placerat corrumpit. Eos solet theophrastus ex. Et erat populo vel, eu cum veri neglegentur.</div>
+                </div>
 
             </div>
             <div class='panel' id='friendsProfile'>
                 <div class='title'> Learn About Your Friends </div>
                 <img class='banner-image first' src='img/friendnetwork.png'></img>
-                <div class='text t-first'> Lorem ipsum dolor sit amet, mel ipsum partem aliquando ad, facilisi imperdiet definitionem nec id. Et cum ceteros fabellas scribentur, elitr persius sea ne. Nam ea malorum deserunt, vel quot nostro aliquid id. Utinam audiam voluptatibus ne vix. Amet dolores ne sea, legendos honestatis eu pro, scripta regione bonorum vim ea. Ex movet oblique nam. Id has euismod reprehendunt, quo porro quando eu.
+                <div class='text t-first'> Real Rep is about finding hidden connections between you and the world. A big part of how Real Rep works is by finding similar traits, hobbies, and interests between you and your friends, and then highlighting them to make them easily accessible. Real Rep allows you to view the profile maps of any of your friends who use the app by clicking on their profile picture wherever it appears in the application.
 
-                No qui posse aeque voluptaria, id facilis tractatos vis. Modo dolorum inermis mei ad, verear vituperata ut sea. Et qui sale modus, justo nusquam signiferumque ei mel, ignota conclusionemque ne eos. Sea ei eirmod nonumes periculis, te est porro nemore diceret. Ei labore nominati sit.
+                <br>
+                <br>
+                To make it easy, we consolidate all profiles on a Friends Network page. Any person on your Facebook friend list who uses this app will be on this page - their graphs, just a single click away. Quickly jump between graphs, viewing connections and seeing data in a way that you never have before. Real Rep simplifies everything by laying it all out in front of you.
                 </div>
 
                 <img class='banner-image second' src='img/friendprof.png'></img>
                 <br>
                 <br>
-                <div class='text t-second'> Enim harum et duo. Iusto affert pro id, diceret consequat vulputate et his. Ceteros definiebas temporibus ad eum, est alii delicata democritum in, ut dicit dicam nam. Oratio scriptorem sed eu. Te facer dicunt possim sea, has oblique lucilius sententiae id. Qui enim nibh aperiam an, clita legimus abhorreant mei et.
-
-                Veri latine duo ea. In vis similique dissentiet mediocritatem, cum an oratio causae hendrerit, vis suas habeo idque eu. In ius impetus petentium, quod denique minimum no nec, natum doming minimum nam no. Ne his postea posidonium efficiendi.
-
-                Vim ex tation persius. Id cum justo dolor, pri ea placerat corrumpit. Eos solet theophrastus ex. Et erat populo vel, eu cum veri neglegentur.</div>
+                <div class='text t-second'> The first thing that should strike you about viewing a graph is how similar it looks to your own. That is because what you are seeing is the same thing your friend would see when he or she logs into the app! Much like viewing a facebook profile, you are given access to the same maps that your friends have access to. You can see not just your real reputation, but that of your friends as well. And this is what makes Real Rep so powerful. On the platform, you are given access to the unfiltered way individuals are viewed by those around them. Finding connections - even hidden ones - between those you knew just became a whole lot easier. 
+                </div>
             </div>
             <div class='panel' id='correlations'>
                 <div class='title'> See What the World Thinks </div>
                 
                 <img class='banner-image' src='img/correlations.png'></img>
 
-                <div class='text'> Lorem ipsum dolor sit amet, mel ipsum partem aliquando ad, facilisi imperdiet definitionem nec id. Et cum ceteros fabellas scribentur, elitr persius sea ne. Nam ea malorum deserunt, vel quot nostro aliquid id. Utinam audiam voluptatibus ne vix. Amet dolores ne sea, legendos honestatis eu pro, scripta regione bonorum vim ea. Ex movet oblique nam. Id has euismod reprehendunt, quo porro quando eu.
+                <div class='text'> Data is beautiful.
+                <br>
+                <br>
+                When shown correctly, thousnads of pieces of data can come together to show us new and exciting conclusions, helping us discover as we learn. Real Rep is, of course, a social media application; but it was designed with a love of data and information in mind. As such, we built in a special feature that allows users to see past the facade of friends lists, profiles, and Facebook likes.
+                <br>
+                <br>
+                The correlations page allows users to pull back the social media layer from this app, exposing the data connections within. Here, users can search for any word that is in the system, and Real Rep will return what it thinks are the most closely related terms to that word. Interested in what people say about your home town? What about your political party, or your college? All of this information - these connections and ideas, represented as lines and circles on your screen - are just a few keyboard strokes away.
+                <br>
+                <br>
 
-                No qui posse aeque voluptaria, id facilis tractatos vis. Modo dolorum inermis mei ad, verear vituperata ut sea. Et qui sale modus, justo nusquam signiferumque ei mel, ignota conclusionemque ne eos. Sea ei eirmod nonumes periculis, te est porro nemore diceret. Ei labore nominati sit.
-
-                Enim harum et duo. Iusto affert pro id, diceret consequat vulputate et his. Ceteros definiebas temporibus ad eum, est alii delicata democritum in, ut dicit dicam nam. Oratio scriptorem sed eu. Te facer dicunt possim sea, has oblique lucilius sententiae id. Qui enim nibh aperiam an, clita legimus abhorreant mei et.
-
-                Veri latine duo ea. In vis similique dissentiet mediocritatem, cum an oratio causae hendrerit, vis suas habeo idque eu. In ius impetus petentium, quod denique minimum no nec, natum doming minimum nam no. Ne his postea posidonium efficiendi.
-
-                Vim ex tation persius. Id cum justo dolor, pri ea placerat corrumpit. Eos solet theophrastus ex. Et erat populo vel, eu cum veri neglegentur.</div>
+                </div>
             </div>
             <div class='panel' id='endtag'>
                 <div class='end-tag'> RealRep. <br> The app that connects us to connect you to connect us all.
