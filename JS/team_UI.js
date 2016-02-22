@@ -1,14 +1,14 @@
 var adrianText = "Adrian is a Columbia University sophomore who brings his creative mind and artistic sensibilities to Diagraphic Tech. He started coding in college, and is currently improving his simulation of an alien ecosystem on the planet Jupiter. He writes for the satirical newspaper the Federalist and makes bad art in his spare time."
 var adrianPic = "img/Adrian_Garza.jpg";
 var adrianName = "Adrian Garza";
-var adrianTitle = "Head of Design";
+var adrianTitle = "Project Design Lead - LexicalPT";
 
 var alexText = "Alex serves as sysadmin and manages the Diagraphic Technologies webstack. Having programmed for more than half of his life, he continues his pursuit of knowledge as a junior at Georgia Tech. He has managed servers both at a large web-based company and on his own for personal projects. Alex brings this knowledge as well as a passion for highly performant web systems to Diagraphic Technologies.";
 var alexPic = "img/Alex_Epifano.jpg";
 var alexName = "Alex Epifano";
 var alexTitle = "Systems Admin";
 
-var amolText = "Amol is a co-founder of Diagraphic Technologies and currently a Sophomore at Columbia's School of Engineering. Amol brings both technological and managerial expertise as the head of technical development for Diagraphic Tech. Since his first year in college, Amol has built numerous projects from the ground up at Hackathons, has been conducting GPU-based parallel processing neurotech research at the BioNet lab at Columbia, and has been interning at iSentium, a tech-finance startup in NYC. He is the core developer for Chalk, LexicalPT, and ReRep. In his free time, he is currently working on a dynamic cloud storage application named Cumulus.";
+var amolText = "Amol is a co-founder of Diagraphic Technologies and currently a Sophomore at Columbia's School of Engineering. Amol brings both technological and managerial expertise as the head of technical development for Diagraphic Tech. Since his first year in college, Amol has built numerous projects from the ground up at Hackathons, has been conducting GPU-based parallel processing neurotech research at the BioNet lab at Columbia, and has been interning at iSentium, a tech-finance startup in NYC. He is the core developer for Chalk, LexicalPT, and RealRep, and has won awards for Chalk, Mumblr, and Politicolor.";
 var amolPic = "img/Amol_Kapoor.jpg";
 var amolName = "Amol Kapoor";
 var amolTitle = "Co-Founder, Technical Lead";
