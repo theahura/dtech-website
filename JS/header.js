@@ -1,4 +1,5 @@
 var currentPage = "";
+var loadPage = "";
 
 $(window).load(function() {
 	$('.to-home').click(function() {
