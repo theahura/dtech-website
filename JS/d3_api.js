@@ -175,7 +175,7 @@ function createGraph(DOMelement, graph) {
     function click(d) {
 
     	if(d.center) {
-    		window.location.href = "http://realrep.diagraphictech.com";
+    		window.location.href = "https://github.com/theahura/Realrep";
 			return;
     	}
 
